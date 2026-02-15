@@ -1,4 +1,0 @@
-wwwroot\stylesheet.css
-wwwroot\index.html
-C:\Users\justi\OneDrive\Desktop\Developer Projects\Portfolio\wwwroot\stylesheet.css
-C:\Users\justi\OneDrive\Desktop\Developer Projects\Portfolio\wwwroot\index.html
