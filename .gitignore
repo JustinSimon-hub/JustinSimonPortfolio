@@ -1,5 +1,5 @@
-﻿# Visual Studio
-.vs /
-*.slnx
+﻿.vs/
+[Bb]in/
+[Oo]bj/
 *.user
-*.suo
+*.slnx
