@@ -140,3 +140,18 @@ footer {
         flex-direction: column;
     }
 }
+
+
+/* Custom alignment for Project Bullet Points */
+.project-features {
+    text-align: left; /* Ensures container stays left */
+    padding-left: 25px; /* Pushes the bullets to the right */
+    margin: 15px 0; /* Adds space above and below the list */
+    list-style-type: disc; /* Ensures standard round bullets */
+}
+
+    .project-features li {
+        margin-bottom: 8px; /* Spacing between bullet points */
+        font-size: 15px; /* Matches your paragraph size */
+        color: #444; /* Slightly softer color for better hierarchy */
+    }
