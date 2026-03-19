@@ -11,8 +11,11 @@
     <header class="hero">
         <div class="hero-content">
             <h1>Justin Simon</h1>
-            <p class="subtitle">Backend Developer | ASP.NET Core | Azure | SQL | JWT Authentication</p>
+            <p class="subtitle">Backend Developer | API Design | Database Engineering | Authentication | DevOps | Cloud Infrastructure | CI/CD Pipelining | System Design</p>
             <a href="#projects" class="btn">View My Projects</a>
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="https://medium.com/@justinsimoncs"  class="btn">Read My Blog</a>
+            <a href="Assets/JustinSimonDeveloperResume (4).pdf" download class="btn">Download my resume</a>
         </div>
     </header>
 
@@ -20,9 +23,7 @@
         <section id="about">
             <h2>About Me</h2>
             <p>
-                I'm a backend-focused developer passionate about building production-ready APIs and web applications.
-                Experienced in ASP.NET Core, SQL databases, JWT authentication, and clean architecture.
-                I specialize in modernizing legacy workflows and deploying robust, cloud-integrated solutions.
+                Hi, my name is Justin Simon and I design and ship backend systems that scale. With deep expertise in ASP.NET Core, REST and gRPC APIs, SQL/NoSQL databases, and cloud infrastructure (Azure/AWS), I specialize in turning complex requirements into clean, maintainable architecture whilst adhering to top security standards. Comfortable across the full deployment lifecycle from containerization with Docker and Kubernetes to automated testing, observability.
             </p>
         </section>
 
@@ -30,34 +31,38 @@
             <h2>Projects</h2>
             <div class="projects-container">
                 <div class="project-card">
-                    <h3>GymTime — Full Stack Fitness API</h3>
+                    <h3>GymTime</h3>
                     <p>
-                        A high-performance workout and diet tracker built with <strong>ASP.NET Core</strong> and <strong>Dapper</strong>.
-                        Deployed on <strong>Azure App Service</strong> with an <strong>Azure SQL</strong> backend.
+                        Developed a high-performance fullstack CRUD workout and diet tracker built using ASP.NET that provides users with a seamless experience for managing their fitness goals and visualizng diet information in real time.
+
                     </p>
                     <ul class="project-features">
-                        <li><strong>Security:</strong> Implemented JWT Authentication and password hashing with BCrypt.</li>
-                        <li><strong>Cloud Infrastructure:</strong> Utilized Azure Managed Identities for passwordless database access.</li>
-                        <li><strong>API Documentation:</strong> Fully documented REST endpoints via Swagger/OpenAPI.</li>
+                        <li>Created data access system using Dapper to execute optimized SQL queries, improving performance and reducing ORM overhead. </li>
+                        <li>Implemented JWT Authentication and password hashing with BCrypt to secure my site and prevent data.</li>
+                        <li>Configured and deployed online via Microsoft Azure.Uses Azure Managed Identities for passwordless database access and SQL Sever as it's database'.</li>
+                        <li>This application features fully documented and JWT token secured REST endpoints that extrapolates user data via Swagger/OpenAPI and testable via applications such as Postman or Insomnia.</li>
+                        <li> Secure user handling of data without exposing user ID.</li>
                     </ul>
                     <div class="project-links">
-                        <a href="https://gymtime-grb0fwcxdhcsdre7.westus3-01.azurewebsites.net/" target="_blank" class="btn-small">Live Demo</a>
+                        <a href="https://gymtime-grb0fwcxdhcsdre7.westus3-01.azurewebsites.net/" target="_blank" class="btn-small">Live Demo, try it out!</a>
                         <a href="https://github.com/JustinSimon-hub/GymTime" target="_blank" class="btn-small">View on GitHub</a>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <h3>Budgeting Application</h3>
+                    <h3>BudgetingEasy</h3>
                     <p>
-                        Full-stack MVC app for income & expense tracking, reporting, and filtering.
-                        Integrated with <strong>Azure SQL</strong> using <strong>Entity Framework Core</strong>.
+                        Developed a fullstack CRUD budgeting application built using ASP.NET Core that provides users with a satisfying experience for managing their finances and contains features such as a user authentication system,  budget alerts, and filtering based on dates and category types.
                     </p>
                     <ul class="project-features">
-                        <li><strong>Deployment:</strong> Migrated from local SQLite to a scalable Azure Cloud environment.</li>
-                        <li><strong>Data Management:</strong> Implemented automated database migrations for schema synchronization.</li>
+                        <li>Migrated my database from local SQLite to a scalable Azure Cloud environment to accomondate scaling user base.</li>
+                        <li> Configured custom SQL scripts within Azure Database to migrate my local files to a cloud based environment.</li>
+                        <li>Opted to use Microsoft.EntityFramework as my Object Relational Mapper to generate models from database and create usable classes based on them, and migration support to enable database schema and information to be secured across time.</li>
+                        <li>Created and implemented REST API endpoints that are testable using Postman and Insomnia.</li>
+                        <li>Ensured that project architecture is clean and layered to ensure future testing and development is streamlined.</li>
                     </ul>
                     <div class="project-links">
-                        <a href="https://budgetapplication-hdadergrh0gnggaa.westus3-01.azurewebsites.net" target="_blank" class="btn-small">Live Demo</a>
+                        <a href="https://budgetapplication-hdadergrh0gnggaa.westus3-01.azurewebsites.net" target="_blank" class="btn-small">Live Demo, try it out!</a>
                         <a href="https://github.com/JustinSimon-hub/MVC_Budgeting" target="_blank" class="btn-small">View on GitHub</a>
                     </div>
                 </div>
@@ -69,13 +74,18 @@
             <div class="tech-stack">
                 <span>C#</span>
                 <span>ASP.NET Core</span>
+                <span>JavaScript</span>
+                <span>Angular</span>
+                <span>Python</span>
+                <span>Docker</span>
+                <span>Kubernetes</span>
                 <span>SQL Server (Azure)</span>
                 <span>Azure App Service</span>
                 <span>Dapper</span>
                 <span>Entity Framework</span>
                 <span>REST APIs</span>
                 <span>JWT</span>
-                <span>Git</span>
+                <span>GitHub/GitLabs</span>
             </div>
         </section>
 
